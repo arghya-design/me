@@ -1616,7 +1616,7 @@ i.fas.fa-map-marked-alt {
     padding-bottom: 8px;
 }
 .sec-heading {
-    font-size: 46px;
+    font-size: 39px;
     font-weight: 600;
     color: #fff;
     padding-right: 4%;
@@ -1663,7 +1663,16 @@ i.fas.fa-map-marked-alt {
 }
 .background-bg {
     background: #24283B;
-    padding: 40px 0 50px 0;
+    padding: 0px 0 50px 0;
+}
+	.my-expertise {
+    background: #1E2233;
+    padding: 50px 0;
+    background-image: url('/../me/images/Background/btr1.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
     .card, .premium {
         width: 100%;
