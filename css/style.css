@@ -184,7 +184,7 @@ main#home {
     overflow: hidden;
 }
 .hero {
-    background-image: url('../images/Background/header-bg.webp');
+    background-image: url('../me/images/Background/header-bg.webp');
     padding: 212px 80px;
     background-position: center;
     background-size: cover;
@@ -710,7 +710,7 @@ img.icon-style4 {
 .my-expertise {
     background: #1E2233;
     padding: 80px 0;
-    background-image: url('../images/Background/btr1.webp');
+    background-image: url('../me/images/Background/btr1.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1043,7 +1043,7 @@ img.ph {
 .my-expertise3 {
     background: #1E2233;
     padding: 80px 0;
-    background-image: url('../images/Background/btr.webp');
+    background-image: url('../me/images/Background/btr.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1484,6 +1484,13 @@ i.fas.fa-map-marked-alt {
 
 
 @media only screen and (max-width: 770px) {
+	.loding-an .load-now {
+    font-size: 34px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    z-index: 1;
+    mix-blend-mode: difference;
+}
     #mobile-menu {
         background-color: #000000;
         width: 100%;
@@ -1595,7 +1602,7 @@ i.fas.fa-map-marked-alt {
     }
 
     .hero {
-    background-image: url('../images/Background/header-bg.webp');
+    background-image: url('../me/images/Background/header-bg.webp');
     padding: 126px 16px 0 16px;
     background-position: center;
     background-size: cover;
@@ -1614,6 +1621,19 @@ i.fas.fa-map-marked-alt {
     color: #fff;
     padding-right: 4%;
     line-height: 76px;
+}
+	.first-heding-a {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    background: #66666669;
+    padding: 6px 6px;
+    width: fit-content;
+    border-radius: 4px;
+    border: 1px solid #ffffff30;
+    box-shadow: 0px 0px 8px #0000003b;
+    margin-top: 12px;
+    margin-right: 10px;
 }
 .para-style {
     color: #d4d4d4;
