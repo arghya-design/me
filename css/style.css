@@ -1691,4 +1691,20 @@ i.fas.fa-map-marked-alt {
     gap: 22px;
     flex-wrap: wrap;
 }
+	.timeline-item {
+    position: relative;
+    padding: 20px;
+    margin: 25px 0;
+    margin-left: 40px;
+    border-left: 2px solid #a7feff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(150deg, rgba(135, 135, 135, 0.104) 40%, rgba(187, 185, 255, 0.2) 110%);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border-left: 2px solid rgba(183, 187, 195, 0.35);
+    display: block;
+    box-sizing: border-box;
+    margin-left: 0;
+}
 }
