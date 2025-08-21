@@ -1004,8 +1004,9 @@ img.icon-style4 {
     border: 1px solid rgba(255, 255, 255, 0.1);
     margin: 0 0 34px 0;
     box-shadow: 4px 4px 12px #00000026;
-    gap: 110px;
+    justify-content: space-between;
 }
+
 .background-line:hover {
     display: flex;
     align-items: center;
@@ -1017,7 +1018,7 @@ img.icon-style4 {
     border: 1px solid #df6951;
     margin: 0 0 34px 0;
     box-shadow: 4px 4px 24px #df695140;
-    gap: 110px;
+    justify-content: space-between;
 }
 img.ph {
     width: auto;
